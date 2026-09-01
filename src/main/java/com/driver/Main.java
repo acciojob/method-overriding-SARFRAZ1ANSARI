@@ -11,10 +11,10 @@ class Main {
             }
         }
     public static void main(String[] args) {
-        B a = new B();
-        a.meth();
+        A a = new B();
+        System.out.println(a.meth());
 
         B b = new B();
-        b.meth();
+        System.out.println(b.meth());
     }
     }
